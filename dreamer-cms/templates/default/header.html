@@ -3,13 +3,15 @@
     <!-- menu -->
     <div class="navbar navbar-expand-md navbar-light default-menu justify-content-between" role="navigation">
         <div class="container-fluid">
-            <a href="/" class="site-logo navbar-brand">{dreamer-cms:global name="title"/}</a>
+            <a href="/" class="site-logo navbar-brand">
+                <div style="background-image: url('{dreamer-cms:template /}images/logo.png');width: 460px;height: 170px;"></div>
+            </a>
             <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#v" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="v">
                 <ul class="nav navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link scroll" href="/">首页</a></li>
+                    <li class="nav-item"><a class="dropdown-item" href="/">首页</a></li>
                     {dreamer-cms:categoryartlist length="8"}
                     	{dreamer-cms:if test="('true' eq [field:haschildren/])"}
                     	<li class="dropdown nav-item"><span href="[field:typeurl/]" class="nav-link dropdown-toggle" data-toggle="dropdown">[field:typenamecn /]</span>
@@ -43,4 +45,5 @@
         </div>
     </div>
 </header>
+<a href="#nav" style="position: fixed;bottom: 100px;right: 100px;transform: scale(5) rotate(90deg);">&lt;</a>
 <div style="width: 100%;height: 50px;background-image: url('{dreamer-cms:template /}images/101129435ema.jpg')"></div>

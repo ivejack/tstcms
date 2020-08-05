@@ -14,57 +14,83 @@
     <link rel="stylesheet" href="{dreamer-cms:template /}plugins/slick/slick.css">
     <link rel="stylesheet" href="{dreamer-cms:template /}plugins/slick/slick-theme.css">
     <link rel="stylesheet" href="{dreamer-cms:template /}css/app.css">
+    <link rel="stylesheet" href="{dreamer-cms:template /}css/carouse.css"/>
     <link rel="stylesheet" href="{dreamer-cms:template /}css/responsive.css">
 </head>
 <body>
 {dreamer-cms:include file='header.html'/}
+<!--轮播图模块-->
+<div class="w1280  mar_auto" style="height: auto">
 
+    <div class="carousel w1280">
+        <!--轮播图-->
+        <div id="carousel_img" onmousemove="stop()" onmouseout="startCar()">
+            <!--图片-->
+            <c:if test="${img >0 }"><div class="carousel_img_div show" style="background-image: url('{dreamer-cms:template /}images/1.jpg')"></div></c:if>
+            <c:if test="${img >1 }"><div class="carousel_img_div hidden" style="background-image: url('{dreamer-cms:template /}images/2.jpg')"></div></c:if>
+            <c:if test="${img >2 }"><div class="carousel_img_div hidden" style="background-image: url('{dreamer-cms:template /}images/3.jpg')"></div></c:if>
+            <!---按钮-->
+            <div class="carousel_button ">
+                <c:if test="${img >0 }"><div class="carousel_button_div" onclick="selexted(0)"><div class="carousel_button_bg hidden"></div></div></c:if>
+                <c:if test="${img >1 }"><div class="carousel_button_div" onclick="selexted(1)"><div class="carousel_button_bg show"></div></div></c:if>
+                <c:if test="${img >2 }"><div class="carousel_button_div" onclick="selexted(2)"><div class="carousel_button_bg show"></div></div></c:if>
+            </div>
+        </div>
+    </div>
+</div>
+<!--轮播图模块结束-==============================-->
 <!--=== feature ===-->
-<section id="feature" class="feature">
-    <div class="container-fluid">
-        <div class="row">
+<section id="feature" class="feature" style="width: 1200px;height: 300px;margin: 0px auto ;">
+    <div class="container-fluid" style="float: left ;width: 600px;margin: 0px;">
+        <div class="row" style="width: 200px;float: left;">
             {dreamer-cms:list typeid="g59s7ch0" start="0" length="1" flag="p"}
-            <div class="col-lg-3 col-md-4 col-sm-6">
+            <div>
                 <div class="feature-wrap">
-                    <div class="feature-image"><a href="[field:arcurl/]"><img src="[field:litpic /]" class="ion ion-ios-cloud-outline"></a></div>
+                    <div class="feature-image"><a href="[field:arcurl/]"><img src="[field:litpic /]" class="ion ion-ios-cloud-outline" style="width: 200px;height: 400px;margin-left: 20px;"></a>
+                    </div>
                 </div>
             </div>
+            {/dreamer-cms:list}
         </div>
-        {/dreamer-cms:list}
+        <div style="float: left;margin-left: 50px;margin-top: 80px;">
+
+        </div>
         {dreamer-cms:list typeid="g59s7ch0" start="1" length="8" flag="p"}
-        <div class="col-lg-3 col-md-4 col-sm-6">
+        <div style="float: left;margin-left: 50px;width: 350px;">
             <a href="[field:arcurl/]">[field:title /]</a>
         </div>
-    </div>
-    {/dreamer-cms:list}
-    </div>
-    <div class="row">
-        {dreamer-cms:list typeid="233tp84u" start="0" length="1" flag="p"}
-        <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="feature-wrap">
-                <div class="feature-image"><a href="[field:arcurl/]"><img src="[field:litpic /]" class="ion ion-ios-cloud-outline"></a></div>
-            </div>
-        </div>
         {/dreamer-cms:list}
+    </div>
+    <div class="container-fluid" style="float: left ;width: 600px;margin: 0px;">
+        <div class="row" style="width: 200px;float: left;">
+            {dreamer-cms:list typeid="233tp84u" start="0" length="1" flag="p"}
+            <div>
+                <div class="feature-wrap">
+                    <div class="feature-image"><a href="[field:arcurl/]"><img src="[field:litpic /]" class="ion ion-ios-cloud-outline" style="width: 200px;height: 400px;margin-left: 20px;"></a>
+                    </div>
+                </div>
+            </div>
+            {/dreamer-cms:list}
+        </div>
+        <div style="float: left;margin-left: 50px;margin-top: 80px;">
+
+        </div>
         {dreamer-cms:list typeid="233tp84u" start="1" length="8" flag="p"}
-        <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="feature-wrap">
-                <a href="[field:arcurl/]">[field:title /]</a>
-            </div>
+        <div style="float: left;margin-left: 50px;width: 350px;">
+            <a href="[field:arcurl/]">[field:title /]</a>
         </div>
         {/dreamer-cms:list}
-    </div>
     </div>
 </section>
 
 
 {dreamer-cms:include file='footer.html'/}
-<a href="#nav" style="position: fixed;bottom: 100px;right: 100px">顶部</a>
 <!--============ JavaScript ===========-->
 <script src="{dreamer-cms:template /}js/jquery-3.2.1.slim.min.js"></script>
 <script src="{dreamer-cms:template /}bootstrap/js/bootstrap.min.js"></script>
 <script src="{dreamer-cms:template /}js/popper.min.js"></script>
 <script src="{dreamer-cms:template /}plugins/slick/slick.min.js"></script>
 <script src="{dreamer-cms:template /}js/app.js"></script>
+<script src="{dreamer-cms:template /}js/carouse.js"></script>
 </body>
 </html>

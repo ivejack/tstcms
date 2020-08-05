@@ -18,15 +18,6 @@
 
     {dreamer-cms:include file='header.html'/}
 
-    <!--=== page header ===-->
-    <section class="page-header d-flex align-items-center">
-        <div class="container-fluid">
-            <div class="page-header-content text-center">
-                <div class="page-header-tag">{dreamer-cms:global name="title" /}</div>
-                <div class="page-header-title">{dreamer-cms:category field="typenamecn" /}</div>
-            </div>
-        </div>
-    </section>
 
     <!--=== blog page ===-->
     <section class="blog-page-1">
@@ -56,7 +47,7 @@
                 <div class="col">
                     <div class="row">
                     	{dreamer-cms:pagelist sortBy="create_time" sortWay="asc" cascade="true"}
-                            <div style="height: 200px;">
+                            <div style="height: 200px;width: 800px;">
                                 <div style="float: left">
                                     <a href="[field:arcurl/]"><img src="[field:litpic/]" class="ion ion-ios-cloud-outline" style="width: 246px;height: 186px;"></a>
                                 </div>

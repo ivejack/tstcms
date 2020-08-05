@@ -12,6 +12,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -22,6 +25,7 @@
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProjectId" id="1fM6DgUpICe7iwqPY6oZ6m5xJ9C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,22 +40,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dreamer-cms/templates/default/js" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\浏览器下载\tstcms\dreamer-cms\templates\default\js" />
+      <recent name="D:\浏览器下载\tstcms\dreamer-cms\templates\default\css" />
+      <recent name="D:\浏览器下载\dreamer_cms\dreamer-cms\templates\default" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\浏览器下载\dreamer_cms\dreamer-cms\templates\default\images\tst\job" />
       <recent name="D:\浏览器下载\dreamer_cms\dreamer-cms\templates\default\images\tst\res" />
       <recent name="D:\浏览器下载\dreamer_cms\dreamer-cms\templates\default\images\tst" />
       <recent name="D:\浏览器下载\dreamer_cms\dreamer-cms\templates\default\images\newscentrul\curturl" />
       <recent name="D:\浏览器下载\dreamer_cms\dreamer-cms\templates\default\images\newscentrul\message" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\浏览器下载\dreamer_cms\dreamer-cms\templates\default" />
     </key>
   </component>
   <component name="RunManager">
@@ -87,7 +93,7 @@
       <workItem from="1596415938305" duration="20897000" />
       <workItem from="1596502194921" duration="18104000" />
       <workItem from="1596588365153" duration="1242000" />
-      <workItem from="1596590054345" duration="234000" />
+      <workItem from="1596590054345" duration="9826000" />
     </task>
     <servers />
   </component>
@@ -103,38 +109,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="782" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596178039411" />
-    <state width="1877" height="325" key="GridCell.Tab.0.bottom" timestamp="1596526585747">
+    <state width="1860" height="97" key="GridCell.Tab.0.bottom" timestamp="1596599414911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596526585747" />
-    <state width="1877" height="325" key="GridCell.Tab.0.center" timestamp="1596526585746">
+    <state width="1860" height="97" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596599414911" />
+    <state width="1860" height="97" key="GridCell.Tab.0.center" timestamp="1596599414910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596526585746" />
-    <state width="1877" height="325" key="GridCell.Tab.0.left" timestamp="1596526585746">
+    <state width="1860" height="97" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596599414910" />
+    <state width="1860" height="97" key="GridCell.Tab.0.left" timestamp="1596599414910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596526585746" />
-    <state width="1877" height="325" key="GridCell.Tab.0.right" timestamp="1596526585746">
+    <state width="1860" height="97" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596599414910" />
+    <state width="1860" height="97" key="GridCell.Tab.0.right" timestamp="1596599414910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596526585746" />
-    <state width="1877" height="325" key="GridCell.Tab.1.bottom" timestamp="1596526585747">
+    <state width="1860" height="97" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596599414910" />
+    <state width="1860" height="97" key="GridCell.Tab.1.bottom" timestamp="1596599414912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596526585747" />
-    <state width="1877" height="325" key="GridCell.Tab.1.center" timestamp="1596526585747">
+    <state width="1860" height="97" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596599414912" />
+    <state width="1860" height="97" key="GridCell.Tab.1.center" timestamp="1596599414912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596526585747" />
-    <state width="1877" height="325" key="GridCell.Tab.1.left" timestamp="1596526585747">
+    <state width="1860" height="97" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596599414912" />
+    <state width="1860" height="97" key="GridCell.Tab.1.left" timestamp="1596599414911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596526585747" />
-    <state width="1877" height="325" key="GridCell.Tab.1.right" timestamp="1596526585747">
+    <state width="1860" height="97" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596599414911" />
+    <state width="1860" height="97" key="GridCell.Tab.1.right" timestamp="1596599414912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596526585747" />
+    <state width="1860" height="97" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596599414912" />
     <state width="1860" height="311" key="GridCell.Tab.2.bottom" timestamp="1596187409241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{dreamer-cms:category field="typenamecn" /} - {dreamer-cms:global name="title"/}</title>
+    <meta name="Keywords" content="{dreamer-cms:global name="keywords"/}" />
+	<meta name="Description" content="{dreamer-cms:global name="describe"/}" />
+    <!--============ All CSS Links ===========-->
+    <link rel="stylesheet" href="{dreamer-cms:template /}bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{dreamer-cms:template /}css/font-awesome.min.css">
+    <link rel="stylesheet" href="{dreamer-cms:template /}plugins/slick/slick.css">
+    <link rel="stylesheet" href="{dreamer-cms:template /}plugins/slick/slick-theme.css">
+    <link rel="stylesheet" href="{dreamer-cms:template /}css/app.css">
+    <link rel="stylesheet" href="{dreamer-cms:template /}css/responsive.css">
+</head>
+<body>
+
+    {dreamer-cms:include file='header.html'/}
+
+    <!--=== page header ===-->
+    <section class="page-header d-flex align-items-center">
+        <div class="container-fluid">
+            <div class="page-header-content text-center">
+                <div class="page-header-tag">{dreamer-cms:global name="title" /}</div>
+                <div class="page-header-title">{dreamer-cms:category field="typenamecn" /}</div>
+            </div>
+        </div>
+    </section>
+
+    <!--=== blog page ===-->
+    <section class="blog-page-1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="blog-page-header">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <ul class="document-ul">
+                        {dreamer-cms:categoryartlist length="8" typeid="fpuw8xr8"}
+                        <li>
+                            <a href="[field:typeurl/]" class="document-title">[field:typenamecn /]</a>
+                            <ul class="document-ul-item">
+                                {dreamer-cms:channel}
+                                <li><a href="[field:typeurl/]">[field:typenamecn /]</a></li>
+                                {/dreamer-cms:channel}
+                            </ul>
+                        </li>
+                        {/dreamer-cms:categoryartlist}
+                    </ul>
+                </div>
+                <div class="col">
+                    <div class="row">
+                    	{dreamer-cms:pagelist sortBy="create_time" sortWay="asc" cascade="true"}
+                            <div style="height: 200px;">
+                                <div style="float: left">
+                                    <a href="[field:arcurl/]"><img src="[field:litpic/]" class="ion ion-ios-cloud-outline" style="width: 246px;height: 186px;"></a>
+                                </div>
+                                <div>
+                                    <h3><font color="blue"><a href="[field:arcurl/]">[field:title/]</a></font></h3>
+                                    [field:remark/]
+                                </div>
+                                <div>
+                                    <span style="float: left">[field:createtime/]</span>
+                                    <span style="float: right"><font color="blue"><a href="[field:arcurl/]">阅读详情</a></font></span>
+                                </div>
+                            </div>
+                        {/dreamer-cms:pagelist}
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            	<div class="col-lg-12 col-md-12 col-sm-12">
+            	{dreamer-cms:pagination /}
+            	</div>
+            </div>
+        </div>
+    </section>
+
+    {dreamer-cms:include file='footer.html'/}
+	
+    <!--============ JavaScript ===========-->
+    <script src="{dreamer-cms:template /}js/jquery-3.2.1.slim.min.js"></script>
+    <script src="{dreamer-cms:template /}bootstrap/js/bootstrap.min.js"></script>
+    <script src="{dreamer-cms:template /}js/popper.min.js"></script>
+    <script src="{dreamer-cms:template /}plugins/slick/slick.min.js"></script>
+    <script src="{dreamer-cms:template /}js/app.js"></script>
+</body>
+</html>
